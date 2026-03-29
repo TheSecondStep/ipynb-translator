@@ -2,10 +2,10 @@
 Jupyter Notebook translator helper script.
 
 Reads an .ipynb file, extracts markdown cells, writes each cell's content
-to a working directory for Claude to translate, then reconstructs the notebook.
+to a working directory for an LLM to translate, then reconstructs the notebook.
 
 This script handles the file I/O and notebook structure manipulation.
-The actual translation is performed by Claude or sub-agents.
+The actual translation is performed by the configured LLM or sub-agents.
 
 Usage:
     # Step 1: Prepare cell files
@@ -270,7 +270,7 @@ def main():
                 "---\n\n"
                 "<!-- IPYNB-TRANSLATOR DISCLAIMER: START -->\n"
                 f"**Disclaimer**: This document has been machine-translated by "
-                f"ipynb-translator (a Claude-based skill). While we strive for accuracy, "
+                f"ipynb-translator (an AI-powered translation tool). While we strive for accuracy, "
                 f"automated translations may contain errors or inaccuracies. "
                 f"The original document in its native language should be considered "
                 f"the authoritative source.\n"

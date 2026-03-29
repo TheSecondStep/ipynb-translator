@@ -1,11 +1,11 @@
 ---
 name: ipynb-translator
-description: Translate Jupyter Notebook (.ipynb) files to target languages using Claude itself as the translation engine. Use when the user wants to (1) translate a .ipynb file to another language, (2) create bilingual notebooks with translated cells below originals, (3) batch-translate notebooks for multiple languages. Triggers on mentions of notebook translation, ipynb translation, or translating Jupyter notebooks.
+description: Translate Jupyter Notebook (.ipynb) files to target languages using an LLM as the translation engine. Use when the user wants to (1) translate a .ipynb file to another language, (2) create bilingual notebooks with translated cells below originals, (3) batch-translate notebooks for multiple languages. Triggers on mentions of notebook translation, ipynb translation, or translating Jupyter notebooks.
 ---
 
 # IPYNB Translator
 
-Translate Jupyter Notebook files by leveraging Claude directly (no external LLM API needed).
+Translate Jupyter Notebook files by leveraging an LLM as the translation engine.
 
 ## Workflow
 
